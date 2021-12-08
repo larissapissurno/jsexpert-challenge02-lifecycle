@@ -30,7 +30,7 @@ Você saberá que o desafio está concluído quando executar o comando `npm run 
 
 ### Extras
 
-* [ ] Desafio opcional: Note que no arquivo `test/unit/service/ReferencesService.test`, existe um teste na linha 44 com um `it.skip()`. Esse é um desafio opcional, e caso queira implementá-lo é só remover o `.skip` e implementar a respectiva função que está sendo testada na ReferencesService
+* [x] Desafio opcional: Note que no arquivo `test/unit/service/ReferencesService.test`, existe um teste na linha 44 com um `it.skip()`. Esse é um desafio opcional, e caso queira implementá-lo é só remover o `.skip` e implementar a respectiva função que está sendo testada na ReferencesService
 
 ## Dicas
 

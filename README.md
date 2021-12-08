@@ -1,3 +1,4 @@
+# Larissa Pissurno
 # Story: Entendendo conceitos fundamentais do ciclo de vida do Javascript
 
 A idéia é implementar códigos pensando no comportamento do Javascript com base no `JS Expect - Módulo 03`, que trata de `Conceitos fundamentais sobre o ciclo de vida do Javascript`. 
@@ -10,10 +11,10 @@ Baseando-se nos testes automatizados já criados neste repo - similares aos feit
 1. Implemente os métodos marcados com um `//@TODO: comment`  em cada uma das respectivas services,
 na ordem que preferir:
 
-* [ ] _services/StatementsService_
-* [ ] _services/WeirdMathService_
-* [ ] _services/ReferencesService_
-* [ ] _services/ObjectMethodsService_
+* [x] _services/StatementsService_
+* [x] _services/WeirdMathService_
+* [x] _services/ReferencesService_
+* [x] _services/ObjectMethodsService_
 
 > Nota: Para saber quais os comportamentos esperados de cada método, verifique os testes unitários de cada service.
 
@@ -68,22 +69,22 @@ project
 ### Checklist features
 
 - ObjectMethodsService
-  * [ ] Deve entender Coerção de tipos e Objects Lifecycle e implementar soluções usando `valueOf`, `toString` e `[Symbol.toPrimitive]`.
+  * [x] Deve entender Coerção de tipos e Objects Lifecycle e implementar soluções usando `valueOf`, `toString` e `[Symbol.toPrimitive]`.
 
 - ReferencesService
-  * [ ] Deve entender tipos de referência e Mutability vs Immutability, e implementar soluções copiando ou não referências de objetos.
+  * [x] Deve entender tipos de referência e Mutability vs Immutability, e implementar soluções copiando ou não referências de objetos.
 
 - StatementsService
-  * [ ] Deve entender o uso de conditional statements no Javascript e seus respectivos retornos em diferentes cenários.
+  * [x] Deve entender o uso de conditional statements no Javascript e seus respectivos retornos em diferentes cenários.
 
 - WeirdMathService
-  * [ ] Deve entender o fluxo de vida do Javascript e as coerções implícitas que ocorrem em expressões matemáticas.
+  * [x] Deve entender o fluxo de vida do Javascript e as coerções implícitas que ocorrem em expressões matemáticas.
 
 ## Submissão
 
 1. Crie um fork deste repositório e modifique o README.md inserindo o seu nome no início do arquivo.
 
-2. Instale as dependências usando `npm i` e garanta que os testes rodam normalmente com `npm run dev`
+2. Instale as dependências usando `npm i` e garanta que os testes rodam normalmente com `npm run test`
 
 > Nota: Como a idéia é que você implemente os códigos a fim de fazer os testes passarem, a princípio todos os testes estarão quebrando, então não se assuste. :) 
 
